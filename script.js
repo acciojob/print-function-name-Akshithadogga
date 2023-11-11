@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function Name_of_function() {
+function Name_function() {
 	return arguments.callee.name
 }
-console.log(Name_of_function());
+alert(Name_of_function());
