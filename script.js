@@ -1,5 +1,6 @@
 //your JS code here. If required.
 function Name_of_function() {
-	return arguments.callee.name;
+	let a= arguments.callee.name;
+	return a;
 }
 console.log(Name_of_function());
